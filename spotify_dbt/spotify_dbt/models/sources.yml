@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: bronze 
+    database: spotify_db
+    schema: bronze
+    tables:
+      - name: spotify_events_bronze
+       
